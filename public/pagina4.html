@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>CONCLUSIONES</title>
+
   <style>
     body {
       font-family: "Georgia", serif;
@@ -11,110 +12,133 @@
       padding: 0;
       background: linear-gradient(to bottom right, #ff9ecb, #ffd2e9);
       color: #333;
+      overflow-x: hidden;
     }
 
     h1 {
       margin-top: 30px;
-      font-size: 2.5em;
-      color: #ffffff;
-      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+      font-size: 2.8em;
+      color: #b30086;
+      text-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+      animation: fadeIn 1s ease-out;
     }
 
     .card {
-      background: white;
-      width: 80%;
-      max-width: 900px;
-      margin: 30px auto;
-      padding: 30px;
-      border-radius: 15px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-      animation: fadeIn 0.8s ease-in-out;
+      background: rgba(255,255,255,0.9);
+      width: 85%;
+      max-width: 1000px;
+      margin: 35px auto;
+      padding: 35px;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+      animation: slideUp 1s ease-out;
       text-align: left;
+      backdrop-filter: blur(5px);
+    }
+
+    h2 {
+      font-size: 2em;
+      color: #db45aa;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
     }
 
     p {
-      font-size: 1.2em;
-      line-height: 1.6;
+      font-size: 1.25em;
+      line-height: 1.7;
     }
 
     nav {
-      margin-top: 30px;
+      margin-top: 40px;
+      padding-bottom: 40px;
+      animation: fadeIn 1.8s ease-in-out;
     }
 
     nav a {
       margin: 10px;
       text-decoration: none;
       color: white;
-      background: #007BFF;
-      padding: 12px 25px;
-      border-radius: 8px;
+      background: #b300ff;
+      padding: 14px 28px;
+      border-radius: 10px;
       font-weight: bold;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
       transition: background 0.3s ease, transform 0.2s ease;
     }
 
     nav a:hover {
-      background: #0056b3;
-      transform: translateY(-3px);
+      background: #7a00b3;
+      transform: translateY(-4px);
     }
 
+    /* Animaciones */
     @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
+      from { opacity: 0; transform: translateY(25px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(40px); }
       to { opacity: 1; transform: translateY(0); }
     }
   </style>
+
 </head>
 
 <body>
+
   <h1>CONCLUSIONES</h1>
 
   <!-- Sección 1 -->
   <div class="card">
-    <h2>¿POR QUE?</h2>
+    <h2>¿POR QUÉ?</h2>
     <p>
-      decidimis realizar este proyecto en ese kinder ya que se nos hizo una muy buena idea
-      ya que los niños tendrias mas conciencia para cuidar nuestro planeta y de ahi sale nuestra
-      frase "MANITAS PEQUEÑAS SEMBRANDO SEMILLAS DE AMOR, CUIDANDO NUESTRO PLANETA"
+      Decidimos realizar este proyecto en este kínder porque nos pareció una excelente idea 
+      ayudar a que los niños tengan más conciencia sobre el cuidado de nuestro planeta.
+      De ahí surge nuestra frase:
+      <br><br>
+      <strong>"MANITAS PEQUEÑAS SEMBRANDO SEMILLAS DE AMOR, CUIDANDO NUESTRO PLANETA"</strong>
     </p>
   </div>
 
   <!-- Sección 2 -->
   <div class="card">
-    <h2>PROPOSITO</h2>
+    <h2>PROPÓSITO</h2>
     <p>
-        Nuestro proposito con este proyecto es crear conciencia en los niños y mejorar un poco 
-        sus areas verdes del kinder, ya que es muy importante cuidar nuestro planeta desde pequeños.
-        y asi de esa manera que los niños sigan cuidando sus areas verdes.
+      Nuestro propósito es crear conciencia en los niños y mejorar las áreas verdes del kínder. 
+      Es muy importante enseñarles desde pequeños el cuidado del planeta para que continúen 
+      protegiendo su entorno.
     </p>
   </div>
 
   <!-- Sección 3 -->
   <div class="card">
-    <h2>¿QUE ACTIVIDADES SE REALIZARON?</h2>
+    <h2>¿QUÉ ACTIVIDADES SE REALIZARON?</h2>
     <p>
-      Se estuvieon realizando varias actividades en todo el transcurso del proyecto tanto como de limpiar
-      como de realizar actividades con los niños del kínder, estas actividades las estuvimos realizando en
-      dos dias a la semana, un dia aplicabamos actividad con los niños y el otro limpiabamos area verde.
+      Durante todo el proyecto realizamos diversas actividades, tanto de limpieza como actividades 
+      recreativas con los niños. Se trabajó dos días por semana: uno dedicado a las actividades 
+      con los niños y otro a la limpieza de las áreas verdes.
     </p>
   </div>
 
+  <!-- Sección 4 -->
   <div class="card">
-    <h2>¿como se trabajo con los niños?</h2>
+    <h2>¿CÓMO SE TRABAJÓ CON LOS NIÑOS?</h2>
     <p>
-        con los niños estuvimos trabajando divididas en dos equipos, poniendo diferentes actividades, por 
-        lo cual estuvimos trabajando con dos grupos diferentes por dia; esto lo estuvimos realizando durante
-        3 semanas 
+      Trabajamos divididas en dos equipos, realizando diferentes actividades. De esta forma, 
+      atendimos a dos grupos por día. Este proceso se llevó a cabo durante 3 semanas.
     </p>
   </div>
 
-    <div class="card">
-    <h2>¿como se limpio el area verde?</h2>
+  <!-- Sección 5 -->
+  <div class="card">
+    <h2>¿CÓMO SE LIMPIÓ EL ÁREA VERDE?</h2>
     <p>
-        El area verde se limpio con la ayuda de todos los integrantes del proyecto, 
-        estuvimos barriendo, recogiendo basura, podando arboles y plantas, regando las plantas
-        y plantando nuevas plantas.
+      El área verde se limpió con la ayuda de todas las integrantes del equipo. 
+      Estuvimos barriendo, recogiendo basura, podando árboles y plantas, regando 
+      y plantando nuevas especies para mejorar el espacio.
     </p>
   </div>
-
 
   <nav>
     <a href="index.html">Inicio</a>
